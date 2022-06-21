@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Desafio da Enext">
+    <title>Desafio Enext</title>
+    <link rel="shortcut icon" href="favicon_io/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/107d02546b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="navTitulo">
+                <img src="images/enextLogo.png" alt="logo enext"/>
+                <h1>Programa de Capacitação</h1>
+            </div>
+            <div class="navLista">
+                <ul>
+                    <li><a href="#perfil">Perfil</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+                <a href="#"><img src="images/setaCima.svg" alt="voltar ao topo"></a>
+            </div>
+        </nav>
+        <div class="fotoHeader">
+            <img src="images/profilePicture.jpg" alt="foto de perfil"/>
+        </div>
+    </header>
+    <main>
+        <div id="perfil">
+            <div class="dadosPerfil">
+                <h2>Gustavo Silva, 22</h2>
+                <h3>Pelotas - RS</h3>
+                <address>
+                    <a href="mailto:gugassilva2000@gmail.com"><i class="fa-solid fa-envelope"></i> gugassilva2000@gmail.com</a><br/>
+                    <a href="tel:+5553981070940"><i class="fa-solid fa-mobile-screen"></i> +55 (53) 98107-0940</a>
+                </address>
+                <hr/>
+                <p>Apaixonado por tecnologia e programação, nas horas vagas gosto de jogar em call com os amigos e assistir séries.</p>
+                <p>Estou aprendendo sobre <abbr title="HyperText Markup Language">HTML5</abbr>, <abbr title="Cascading Style Sheets">CSS3</abbr> e JavaScript. Pretendo melhorar também o meu inglês, então estudo por conta própria.</p>
+            </div>
+            <div class="imagemPerfil">
+                <img src="images/imageMain.jpg" alt="computador com código">
+            </div>
+        </div>
+        <div id="habilidades">
+            <h2>Habilidades e Competências</h2>
+            <div class="linguagens">
+                <img src="images/html5.svg" alt="html5" class="html">
+                <img src="images/css3.svg" alt="css3" class="css">
+                <img src="images/javascript.svg" alt="javascript" class="js">
+            </div>
+            <a href="https://github.com/xgusstavo/" target="_blank"><input type="button" value="github"></a>
+        </div>
+        <div id="galeria">
+            <h2>Galeria de fotos</h2>
+            <div class="gridDisplay">
+                <img src="images/imagem1.jpg" alt="imagem grid" class="img1">
+                <img src="images/imagem2.jpg" alt="imagem grid" class="img2">
+                <img src="images/imagem3.jpg" alt="imagem grid" class="img3">
+                <img src="images/imagem4.jpg" alt="imagem grid" class="img4">
+                <img src="images/imagem5.jpg" alt="imagem grid" class="img5">
+                <img src="images/imagem6.jpg" alt="imagem grid" class="img6">
+                <img src="images/imagem7.jpg" alt="imagem grid" class="img7">
+                <img src="images/imagem8.jpg" alt="imagem grid" class="img8">
+                <img src="images/imagem9.jpg" alt="imagem grid" class="img9">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="contato">
+            <div class="tituloFooter">
+                <h3>Alguma dúvida?</h3>
+                <p>Entre em contato comigo</p>
+            </div>
+
+            <div class="inputsFooter">
+                <div class="contatoInput">
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email">
+                    <label for="tel">Celular:</label>
+                    <input type="tel" name="tel" id="tel">
+                </div>
+
+                <div class="msg">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="7"></textarea>
+                    <input type="button" value="Enviar">
+                </div>
+            </div>
+        </div>
+        <div class="socialMedia">
+            <a href="https://br.pinterest.com/xgusstavo/" target="_blank" class="pinterest"><i class="fa-brands fa-pinterest"></i></a>
+            <a href="https://www.youtube.com/channel/UCQozriSh9Hbey0U_Ucm83Vg/featured" target="_blank" class="youtube"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://twitter.com/xGusstavoo" target="_blank" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/xgusstavo/" target="_blank" class="linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+        <div class="copyright">
+            <p>&copy;copyright - 2022</p>
+            <p>all rights reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
